@@ -1,0 +1,108 @@
+.grid {
+	display: grid;
+	border: 20px #FFCC00 solid;
+	height: 1500px;
+	grid-template: 4fr 2fr 75% 3fr / 15% 85%;
+	grid-gap: 2px;
+}
+
+.box {
+	background-color: #BBE0DB;
+	color: black;
+	border-radius: 5px;
+	border: 5px #000000 solid;
+	padding-top: 20px;
+}
+
+.a {
+	grid-column: 1 / span 2;
+	text-align: center;
+	font-size: 45px;
+	font-weight: bold;
+	font-family: Comic Sans MS;
+	color: #000000;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTzLGKKnQcP6IVSjv8GiLZMTjCiJGAsgO6TaYtZYSfpts56fvc_);
+	background-size: cover;
+	background-position: ceter;
+	height: 100%;
+}
+
+.b {
+	grid-column: 1 / span 2;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.c {
+	text-align: center;
+}
+
+.d {
+	text-align: left;
+	font-size: 20px;
+	font-family: Verdana;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.e {
+	grid-column: 1 / span 2;
+	text-align: center;
+	font-size: 17px;
+}
+
+.current-page {
+	background-color: #FFCC00;
+}
+
+.home-image {
+	background-image: url(https://www.budsies.com/blog/wp-content/uploads/2016/05/smaller-1.jpg);
+	background-size: 95%;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 1000px;
+}
+
+.caption {
+  display: block;
+  font-size: 45px;
+  line-height: 70px;
+  margin-left: 50px;
+  padding: 10px;
+  position: relative;
+  top: 5%;
+  width: 35%;
+  color: black;
+  background-color: white;
+  opacity: .8;
+}
+
+ul {
+	font-size: 20px;
+}
+
+.campaign {
+	padding: 20px;
+	font-size: 25px;
+	text-align: left;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.left {
+	display: block;
+	margin-left: 15px;
+	padding-right: 60px;
+	float: left;
+}
+
+.text-wrap-sd {
+	display: inline;
+	padding-top: 30px;
+	line-height: 2;
+}
