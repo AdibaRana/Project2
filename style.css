@@ -21,7 +21,7 @@
 	font-weight: bold;
 	font-family: Comic Sans MS;
 	color: #000000;
-	background-image: url(./colors.jpg);
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTzLGKKnQcP6IVSjv8GiLZMTjCiJGAsgO6TaYtZYSfpts56fvc_);
 	background-size: cover;
 	background-position: ceter;
 	height: 100%;
@@ -57,7 +57,7 @@
 }
 
 .home-image {
-	background-image: url(https://www.budsies.com/blog/wp-content/uploads/2016/05/smaller-1.jpg);
+	background-image: url(./colors.jpg);
 	background-size: 95%;
 	background-repeat: no-repeat;
 	background-position: center;
