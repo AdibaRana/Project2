@@ -110,3 +110,30 @@ img {
 .center {
 	text-align: center;
 }
+
+.grid-2 {
+	display: grid;
+	grid-template-areas:
+	'A1 A1 B2' 'A1 A1 B2''C3 C3 C3';
+	text-align: center;
+	border: 60px #FF00FF solid;
+}
+
+.A1 {
+	grid-area: A1;
+	border: 20px #FF0000 solid;
+}
+
+.B2 {
+	grid-area: B2;
+	border: 10px #0000FF solid;
+}
+
+.C3 {
+	grid-area: C3;
+	border: 15px #00FF00 dotted;
+}
+
+.hidden }
+	color: #000000;
+}
