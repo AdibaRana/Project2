@@ -114,7 +114,7 @@ img {
 .grid-2 {
 	display: grid;
 	grid-template-areas:
-	'A1 A1 B2' 'A1 A1 B2''C3 C3 C3';
+	'A1 A1 B2' 'A1 A1 B2''C3 C3 B2';
 	text-align: center;
 	border: 60px #FF00FF solid;
 }
